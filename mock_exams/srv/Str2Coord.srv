@@ -1,0 +1,5 @@
+# Request
+string place
+---
+# Response
+geometry_msgs/PoseStamped coordinates

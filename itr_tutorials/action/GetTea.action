@@ -1,0 +1,10 @@
+#GOAL
+string destination
+---
+#RESULT
+bool success
+---
+#FEEDBACK
+string what
+geometry_msgs/PoseStamped next_pose
+

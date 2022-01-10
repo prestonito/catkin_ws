@@ -1,0 +1,6 @@
+ 
+ <launch>
+    <node name="go_for_tea_sm" pkg="itr_tutorials" type="go_for_tea_sm.py"/>
+    <node name="string_to_coord_srv" pkg="itr_tutorials" type="string_to_coord.py"/>
+
+</launch>

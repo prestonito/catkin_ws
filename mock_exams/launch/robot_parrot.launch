@@ -1,0 +1,6 @@
+<launch>
+    <node name="parrot_sm" pkg="mock_exams" type="robot_parrot_v1.py"/>
+    <node name="string_to_coord_srv" pkg="mock_exams" type="string_to_coord.py"/>
+    <node name="solution_ros_yolo_itr" pkg="itr_yolo_pkg" type="yolo_ros.py"/>
+
+</launch>
