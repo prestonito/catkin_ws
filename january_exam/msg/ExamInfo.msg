@@ -1,0 +1,2 @@
+string update
+geometry_msgs/Pose2D goal_pose

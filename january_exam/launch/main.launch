@@ -1,0 +1,14 @@
+<!--
+Student name:PReston
+-->
+<!--<?xml version="1.0"?>-->
+<launch>
+	<include file="$(find rosplan_stage_demo)/launch/empty_stage_single_robot.launch">
+			<arg name="use_default_rviz" value="true" />
+	</include>
+
+	<node pkg="january_exam" type="january_exam_goal_publisher.py" name="januarygoalpublisher" />
+
+	<!-- Add stuff below -->
+	<node pkg="january_exam" type="main_node.py" name="examnode" />
+</launch>
